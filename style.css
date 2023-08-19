@@ -1,0 +1,180 @@
+.top-container {
+ background-color:#1D5C63;
+   
+   
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 4fr 2fr ;
+    gap: 20px;
+    
+  }
+
+  .image-intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  .para
+  { height:50px;
+    font-size: xx-large;
+    display: flex;
+      align-items: center;
+      justify-content: center;
+    vertical-align: middle;
+    color: aliceblue;
+    padding-top: 100px;
+  }
+  .text{
+    font-weight:500;
+    text-decoration: underline;
+    
+  }
+
+
+  .middle-container{
+    background-color: #E1ECC8;
+   padding-top: 2rem;
+   padding-bottom: 2rem;
+  }
+
+       
+     
+   
+
+  .profile-pic{
+    border:10px solid #1D5C63;
+    border-radius: 50%;
+    height:300px;
+    width: 200px;
+    
+    
+    
+    
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+     
+  }
+  .hello{
+    margin-top: 7rem;
+   
+   font-size: xx-large;
+    display: flex;
+      align-items: center;
+      justify-content: center;
+       
+  }
+.intro{
+    margin-top: 2rem;
+    display: flex;
+      align-items: center;
+      justify-content: center;}
+       
+  
+.section2{
+  display: block;
+  background-color: #F7FFE5;
+  
+}
+.project{
+       
+        color: #1D5C63;
+        font-size: xxx-large;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+    
+        padding-top: 2rem;
+        text-decoration:underline;
+      }
+.parent{
+  width: 80%;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+  text-align: left;
+  text-align: justify;
+  margin-left: 10%;
+  margin-right: 10%;
+
+ 
+
+  
+}
+
+.end{
+
+}
+
+
+.contact-me{
+  padding-top: 4rem;
+  background-color: #F7FFE5;
+  text-align: center;
+}
+
+.getin{
+  color: #1D5C63;
+  font-size: 3rem;
+  text-decoration: underline;
+  padding-bottom: 2rem;
+}
+.ending{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+ .btn{
+color: white;
+  background-color: #1D5C63; 
+  text-align: center;
+  margin-bottom: 5rem;
+
+
+ }
+ .btn-contact{
+  background-color: #1D5C63;
+  height: 3rem;
+  width: 20rem;
+  border-radius: 5%;
+  text-align: center;
+  margin: auto;
+  
+
+  
+ }
+
+
+ .bottom-container{
+  padding: 20px;
+  background-color:#F7FFE5;
+  text-align: center;
+ }
+ .footer-link{
+  padding:20px;
+ }
+.copyright{
+  text-align: center;
+}
+@media (max-width: 600px) {
+
+  /* CSS for screens below or equal to 600px wide */
+  .intro {
+    height: 400px;
+    width: 400px;
+  }
+
+  .para{
+    font-size: medium;
+  }
+
+  .profile-pic{
+    width: 200px;
+    height: 200px;
+  }
+  p{
+  text-align: center;
+
+  }
+}
